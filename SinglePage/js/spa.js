@@ -9,6 +9,8 @@ var spa = (function () {
             + 'hello world!'
             + '</h1>'
         );
+
+        spa.shell.initModule($container);
     };
 
     return {initModule:initModule}
